@@ -3,7 +3,7 @@ name: 🛡️ Security Audit
 
 on:
   schedule:
-    - cron: '0 3 * * 1'  # هر دوشنبه ساعت ۳ صبح
+    - cron: '0 3 * * 1'
   push:
     branches: [main]
 
