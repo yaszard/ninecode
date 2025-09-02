@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📥 Checkout code
+    - name: 📥 Checkout cod
       uses: actions/checkout@v3
 
     - name: 🟢 Setup Node.js
