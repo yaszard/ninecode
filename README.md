@@ -26,7 +26,7 @@ jobs:
     - name: 🔍 Run npm audit
       run: npm audit --json > audit-report.json
 
-    - name: 📤 Upload audit repo
+    - name: 📤 Upload audit report
       uses: actions/upload-artifact@v3
       with:
         name: security-audit-report
