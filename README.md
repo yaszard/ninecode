@@ -23,7 +23,7 @@ jobs:
     - name: 📦 Install dependencies
       run: npm ci
 
-    - name: 🔍 Run npm audit
+    - name: 🔍 Run npm audi
       run: npm audit --json > audit-report.json
 
     - name: 📤 Upload audit report
