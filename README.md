@@ -20,7 +20,7 @@ jobs:
       with:
         node-version: '18'
 
-    - name: 📦 Install dependenci
+    - name: 📦 Install dependencies
       run: npm ci
 
     - name: 🔍 Run npm audit
