@@ -1,6 +1,5 @@
 # .github/workflows/security-audit.yml
-name: 🛡️ Security Audit
-
+name: 🛡️ Security Au
 on:
   schedule:
     - cron: '0 3 * * 1'
